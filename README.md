@@ -134,96 +134,38 @@ Step 8: End.
 
 The program successfully identifies and displays the maximum and minimum values in an array by traversing the array and comparing each element. This approach efficiently finds the desired values.
 
+# String
+
 <br>
-<p align='center'><b> Experiment 7D </b></p>
+<p align='center'><b> Experiment 7F </b></p>
 
 ## Aim
 
-To search for a specific key in an array of integers and determine its position.
+To write a C++ program that displays a string.
 
 ## Software Used
 - Dev C++
 
 ## Theory
-
-<p>Arrays in C++ are used to store a fixed-size sequential collection of elements of the same type. Searching for an element in an array involves comparing each element with the key until the key is found or all elements have been checked.</p>
-
-### Key Search
-
-<p>The program asks the user to input an array of integers and then searches for a specific integer key in that array. If the key is found, the program returns the index of the key. If not, it indicates that the key is not present in the array.</p>
+<p>In C++, a string can be represented as a character array or by using the std::string class. In this experiment, a character array is used to store and display the string. The cout statement is used to output the string to the console.</p>
 
 ## Algorithm
 
 Step 1: Start.
 <br>
-Step 2: Declare a constant integer maxSize as 18.
+Step 2: Declare and initialize a character array with the string "Otniel".
 <br>
-Step 3: Declare an integer array arr of size maxSize.
+Step 3: Use the cout statement to display the string.
 <br>
-Step 4: Declare integer variables size and key, and a boolean found initialized to false.
-<br>
-Step 5: Ask the user to input the size of the array, ensuring it does not exceed maxSize.
-<br>
-Step 6: Input size elements into the array.
-<br>
-Step 7: Ask the user to input the key to search for.
-<br>
-Step 8: Traverse the array to search for the key.
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the key is found, output the index and set found to true.
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the key is not found after the loop, output "Key not found."
-<br>
-Step 9: End.
+Step 4: End.
 <br>
 
 ## Output
 
-![image](https://github.com/user-attachments/assets/2c425860-edb5-42e3-9424-4060b6be0abe)
+![image](https://github.com/user-attachments/assets/2e629cbc-f8d9-4e9b-8076-b4ac29a5967d)
 
 ## Conclusion
 
-<p>The program effectively demonstrates how to input a specified number of elements into an array and display those elements. It illustrates the basic usage of loops for both input and output operations in C++.</p>
-
-<br>
-<p align='center'><b> Experiment 7E </b></p>
-
-## Aim
-
-To calculate the sum and average of elements in an array of integers.
-
-## Software Used
-- Dev C++
-
-## Theory
-
-Arrays in C++ are used to store multiple values of the same data type. The sum of an array can be found by iterating through the array and adding each element to a running total. The average is then calculated by dividing the sum by the number of elements in the array.
-
-## Algorithm
-
-Step 1: Start.
-<br>
-Step 2: Declare an integer variable size to store the number of elements in the array.
-<br>
-Step 3: Prompt the user to enter the size of the array.
-<br>
-Step 4: Declare an integer array arr of size size and an integer variable sum initialized to 0.
-<br>
-Step 5: Loop through the array to input elements and add each element to sum.
-<br>
-Step 6: Calculate the average by dividing sum by size.
-<br>
-Step 7: Output the sum and the average of the array elements.
-<br>
-Step 8: End.
-<br>
-
-## Output
-
-![image](https://github.com/user-attachments/assets/96bbe307-aa1a-4271-93ae-2ea9cc9ffcfd)
-
-## Conclusion
-
-<p>The program successfully calculates the sum and average of array elements. The sum is computed by adding all the elements, and the average is derived by dividing the sum by the total number of elements. This program demonstrates the basic concepts of array manipulation in C++.</p>
+The program successfully displays the string "Otniel" on the screen. This simple program demonstrates how to use character arrays in C++ to store and display text.
 
 
