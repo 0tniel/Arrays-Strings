@@ -169,3 +169,146 @@ Step 4: End.
 The program successfully displays the string "Otniel" on the screen. This simple program demonstrates how to use character arrays in C++ to store and display text.
 
 
+<br>
+<p align='center'><b> Experiment 7G </b></p>
+
+## Aim
+
+To write a C++ program that displays a string.
+
+## Software Used
+- Dev C++
+
+## Theory
+<p>In C++, strings are objects that represent sequences of characters. The C++ Standard Library provides the std::string class, which supports various operations like concatenation. Concatenating two strings means appending the second string to the end of the first string, creating a new string that combines the content of both.</p>
+
+### String Concatenation
+<p>String concatenation in C++ can be done using the '+' operator, which merges two strings into a new string.</p>
+
+## Algorithm
+
+Step 1: Start.
+<br>
+Step 2: Declare two 'std::string' variables 'str1' and 'str2' to hold the user inputs.
+<br>
+Step 3: Declare another 'std::string' variable 'newstr' to store the concatenated result.
+<br>
+Step 4: Prompt the user to enter the first string and store it in 'str1'.
+<br>
+Step 5: Prompt the user to enter the second string and store it in 'str2'.
+<br>
+Step 6: Concatenate 'str1' and 'str2' using the '+' operator and store the result in 'newstr'.
+<br>
+Step 7: Display the concatenated string 'newstr'.
+<br>
+Step 8: End.
+<br>
+
+## Output
+
+![image](https://github.com/user-attachments/assets/e02df0b7-6e85-406d-a180-3d175f40da94)
+
+## Conclusion
+
+The program successfully concatenates two user-provided strings and displays the result. The '+' operator in C++ efficiently combines the strings into a new string, demonstrating a fundamental operation on string objects.
+
+
+<br>
+<p align='center'><b> Experiment 7H </b></p>
+
+## Aim
+
+To reverse and display a string provided by the user.
+
+
+## Software Used
+
+- Dev C++
+  
+## Theory
+
+<p>In C++, a 'std::string' represents a sequence of characters. Reversing a string involves printing the characters of the string in reverse order. This can be achieved by iterating from the end of the string to the beginning.</p>
+
+### String Reversal
+
+<p>To reverse a string, we iterate from the last character to the first character of the string, printing each character in this order. This approach does not modify the original string but displays its reversed version.</p>
+
+
+## Algorithm
+
+Step 1: Start.
+<br>
+Step 2: Declare a 'std::string' variable 'word' to store the user input.
+<br>
+Step 3: Prompt the user to enter a string and read the input into 'word'.
+<br>
+Step 4: Determine the length of the string using 'word.length()'.
+<br>
+Step 5: Iterate from the last character to the first character of the string.
+<br>
+Step 6: Print each character during the iteration.
+<br>
+Step 7: End.
+<br>
+
+## Output
+
+![image](https://github.com/user-attachments/assets/a75c1071-cc8f-42a8-a20c-063967c56531)
+
+## Conclusion
+
+<p>The program successfully reverses and displays a user-provided string. Iterating through the string from end to start effectively demonstrates how to reverse a string in C++. This approach highlights the manipulation of string indices to achieve the desired output.</p>
+
+
+<br>
+<p align='center'><b> Experiment 7I </b></p>
+
+## Aim
+To determine whether a given string is a palindrome.
+
+## Software Used
+- Dev C++
+
+## Theory
+<p>A palindrome is a string that reads the same backward as forward. To check if a string is a palindrome, we compare characters from the beginning of the string with characters from the end, moving towards the center. If all corresponding characters match, the string is a palindrome.</p>
+
+### Palindrome Check
+<p>The palindrome check involves:
+<br>
+1. Comparing the first and last characters of the string.
+ <br>
+2. Moving inward and comparing each subsequent pair of characters.
+  <br>
+3. If any pair does not match, the string is not a palindrome.</p>
+<br>
+
+## Algorithm
+
+Step 1: Start.
+<br>
+Step 2: Declare a 'std::string' variable 'str' to store the user input.
+<br>
+Step 3: Initialize a boolean variable 'isPalindrome' to 'true'.
+<br>
+Step 4: Prompt the user to enter a string and read the input into 'str'.
+<br>
+Step 5: Determine the length of the string using 'str.length()'.
+<br>
+Step 6: Iterate from the start of the string to the middle, comparing characters from the beginning and the end of the string.
+<br>
+Step 7: If any characters do not match, set isPalindrome to false and exit the loop.
+<br>
+Step 8: After the loop, check the value of isPalindrome: <br>
+         - If true, the string is a palindrome.  <br>
+         - If false, the string is not a palindrome.
+<br>
+Step 9: End.
+<br>
+
+## Output
+
+
+## Conclusion
+The program accurately determines whether a given string is a palindrome by comparing characters from the start and end of the string. If all compared characters match, the string is identified as a palindrome; otherwise, it is not. This method efficiently checks for palindromes with a time complexity of O(n), where n is the length of the string.
+
+
