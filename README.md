@@ -299,16 +299,127 @@ Step 6: Iterate from the start of the string to the middle, comparing characters
 Step 7: If any characters do not match, set isPalindrome to false and exit the loop.
 <br>
 Step 8: After the loop, check the value of isPalindrome: <br>
-         - If true, the string is a palindrome.  <br>
-         - If false, the string is not a palindrome.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If true, the string is a palindrome.  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If false, the string is not a palindrome.
 <br>
 Step 9: End.
 <br>
 
 ## Output
 
+![image](https://github.com/user-attachments/assets/80e8560d-4876-4466-b096-9c47d2d11df0)
 
 ## Conclusion
 The program accurately determines whether a given string is a palindrome by comparing characters from the start and end of the string. If all compared characters match, the string is identified as a palindrome; otherwise, it is not. This method efficiently checks for palindromes with a time complexity of O(n), where n is the length of the string.
 
+# 2D Array
 
+<br>
+<p align='center'><b> Experiment 7J </b></p>
+
+## Aim
+
+To input a 2D array (matrix) and display its elements in a matrix format.
+
+## Software Used
+- Dev C++
+
+## Theory
+<p>A 2D array in C++ is essentially an array of arrays, where each element of the main array is another array. The 2D array can be visualized as a matrix with rows and columns. The elements are stored in contiguous memory locations, making it efficient for operations that involve row-wise or column-wise traversal.</p>
+
+### 2D Array Input and Output
+
+1. Input: The elements of the 2D array are taken row by row, where the user first specifies the number of rows and columns
+<br>
+2. Output: The elements are then displayed in a matrix format, maintaining the row and column structure.
+
+## Algorithm
+
+Step 1: Start.
+<br>
+Step 2:Declare two integer variables sizer and sizec to store the number of rows and columns, respectively.
+<br>
+Step 3:Prompt the user to enter the number of rows and store it in sizer.
+<br>
+Step 4:Prompt the user to enter the number of columns and store it in sizec.
+<br>
+Step 5:Declare a 2D array arr of size sizer by sizec.
+<br>
+Step 6:Use nested loops to input the elements of the 2D array:
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outer loop for rows.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inner loop for columns.
+<br>
+Step 7:Use nested loops to display the elements of the 2D array in a matrix format:
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outer loop for rows.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inner loop for columns.
+<br>
+Step 8:End.
+<br>
+
+## Output
+
+![image](https://github.com/user-attachments/assets/95265f48-153f-4556-a7c9-c66cb51172f5)
+
+## Conclusion
+
+The program successfully takes input for a 2D array (matrix) and displays it in a matrix format.
+
+
+<br>
+<p align='center'><b> Experiment 7K </b></p>
+
+## Aim
+
+To input two matrices of the same size and display their sum.
+
+## Software Used
+- Dev C++
+
+## Theory
+<p>
+  A matrix is a two-dimensional array of numbers arranged in rows and columns. The sum of two matrices is obtained by adding the corresponding elements of each matrix. Matrix addition is only possible when both matrices have the same dimensions (i.e., the same number of rows and columns).
+</p>
+
+## Algorithm
+
+Step 1: Start.
+<br>
+Step 2: Declare variables sizer, sizec, sizer1, and sizec2 to store the number of rows and columns of the matrices.
+<br>
+Step 3: Prompt the user to enter the number of rows and columns for the first matrix and store them in sizer and sizec.
+<br>
+Step 4: Declare a 2D array arr of size sizer by sizec to store the elements of the first matrix.
+<br>
+Step 5: Prompt the user to input the elements of the first matrix.
+<br>
+Step 6: Prompt the user to enter the number of rows and columns for the second matrix and store them in sizer1 and sizec2.
+<br>
+Step 7: Declare a 2D array arr2 of size sizer1 by sizec2 to store the elements of the second matrix.
+<br>
+Step 8: Prompt the user to input the elements of the second matrix.
+<br>
+Step 9: Check if the sizes of the matrices are the same:
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If they are the same, proceed with the addition.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If not, display a message that the sizes should be the same for addition.
+<br>
+Step 10:For each element in the matrices, calculate the sum of the corresponding elements and store the result in a new matrix sum.
+<br>
+Step 11:Display the sum matrix.
+<br>
+Step 12:End.
+<br>
+
+## Output
+
+![image](https://github.com/user-attachments/assets/4aa9ec53-5a9f-4a32-b407-cf042dd02178)
+
+## Conclusion
+
+The program successfully adds two matrices of the same size and displays the result. 
