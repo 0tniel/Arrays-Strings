@@ -1,3 +1,6 @@
+//Otniel
+//23070123069
+//ENTC A3
 #include <iostream>
 using namespace std;
 
@@ -50,4 +53,22 @@ int main() {
 
     return 0;
 }
-
+/*
+Enter the number of rows for Matrix A: 2
+Enter the number of columns for Matrix A: 2
+Enter the number of rows for Matrix B: 2
+Enter the number of columns for Matrix B: 2
+Enter elements of Matrix A:
+1
+2
+3
+4
+Enter elements of Matrix B:
+1
+2
+3
+4
+Result of matrix multiplication:
+7 10
+15 22
+*/
