@@ -479,3 +479,53 @@ Step 12: End.
 ## Conclusion
 
 This program successfully demonstrates matrix multiplication, a fundamental operation in linear algebra.
+
+<br>
+<p align='center'><b> Experiment 7M </b></p>
+
+## Aim
+
+To calculate the sum of the forward (main) diagonal and the reverse diagonal elements of a square matrix.
+
+## Software Used
+- Dev C++
+
+## Theory
+<p>
+  In matrix operations, a diagonal consists of elements where the row and column indices are equal. The reverse diagonal (also known as the anti-diagonal) consists of elements where the row index plus the column index equals n-1, where n is the size of the matrix. This program computes the sum of both the forward and reverse diagonals for a square matrix.
+</p>
+
+## Algorithm
+
+Step 1: Start. 
+<br> 
+Step 2: Prompt the user to enter the number of rows and columns for the matrix. 
+<br>
+Step 3: Check if the matrix is square (i.e., the number of rows equals the number of columns). If not, display an error message and terminate.
+<br> 
+Step 4: Declare a 2D array to store the matrix elements. 
+<br> 
+Step 5: Populate the matrix by reading elements from the user. 
+<br> 
+Step 6: Initialize variables to store the sums of the forward diagonal and reverse diagonal elements.
+<br> 
+Step 7: Traverse the matrix:
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the forward diagonal, sum the elements where the row and column indices are equal.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the reverse diagonal, sum the elements where the row index plus the column index equals n-1. 
+<br>
+Step 8: Display the matrix and the calculated sums of both diagonals. 
+<br> 
+Step 9: End. 
+<br>
+
+## Output
+
+![image](https://github.com/user-attachments/assets/102dcf50-0831-4a65-9a87-20a64649dbee)
+
+## Conclusion
+
+<p>
+  The program successfully calculates both the forward and reverse diagonal sums of a square matrix by iterating through the matrix and summing the respective diagonal elements. This method can be extended to square matrices of any size.
+</p>
