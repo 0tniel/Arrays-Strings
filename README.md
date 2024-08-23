@@ -420,6 +420,62 @@ Step 12:End.
 
 ![image](https://github.com/user-attachments/assets/4aa9ec53-5a9f-4a32-b407-cf042dd02178)
 
+
+
 ## Conclusion
 
 The program successfully adds two matrices of the same size and displays the result. 
+
+<br>
+<p align='center'><b> Experiment 7L </b></p>
+
+## Aim
+
+To perform matrix multiplication of two matrices and display the result.
+
+## Software Used
+- Dev C++
+
+## Theory
+<p>
+  Matrix multiplication involves computing the dot product of rows of the first matrix with columns of the second matrix. The number of columns in the first matrix must match the number of rows in the second matrix for multiplication to be possible. The resulting matrix has dimensions that correspond to the number of rows of the first matrix and the number of columns of the second matrix.
+</p>
+
+## Algorithm
+
+Step 1: Start.
+<br>
+Step 2: Declare variables rowsA, colsA, rowsB, and colsB to store the number of rows and columns of the matrices.
+<br>
+Step 3: Prompt the user to enter the number of rows and columns for Matrix A and store them in rowsA and colsA.
+<br>
+Step 4: Prompt the user to enter the number of rows and columns for Matrix B and store them in rowsB and colsB.
+<br>
+Step 5: Check matrix dimensions:
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the number of columns in Matrix A (colsA) is not equal to the number of rows in Matrix B (rowsB), output an error message indicating that matrix multiplication is not possible and exit the program.
+<br>
+Step 6: Declare 2D arrays A and B for storing Matrix A and Matrix B, and C for storing the result of the multiplication.
+<br>
+Step 7: Prompt the user to input the elements of Matrix A.
+<br>
+Step 8: Prompt the user to input the elements of Matrix B.
+<br>
+Step 9: Initialize the result matrix C to zero.
+<br>
+Step 10: Perform matrix multiplication:
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For each element in the result matrix C, compute the sum of products of corresponding elements from the rows of Matrix A and the columns of Matrix B.
+<br>
+Step 11: Display the result matrix.
+<br>
+Step 12: End.
+<br>
+
+## Output
+
+![image](https://github.com/user-attachments/assets/1678b4c5-03c7-4c21-9f1e-802550ddce8f)
+
+## Conclusion
+
+This program successfully demonstrates matrix multiplication, a fundamental operation in linear algebra.
